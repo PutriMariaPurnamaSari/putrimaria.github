@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css
+" rel="stylesheet" integrity="sha384-
+1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+crossorigin="anonymous">
+<!-- JQuery Link -->
+
+<script type="text/javascript" src="assets/jquery-
+3.6.0.min.js"></script>
+
+<script type="text/javascript" src="assets/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/jquery-ui.css">
+<!-- LInk CSS -->
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<title>UAS Tanah Lot</title>
+<script type="text/javascript">
+$(function(){
+$("#dialogku").dialog({
+autoOpen:false,
+show:'blind',
+hide:'explode'
+
+});
+$('#dibuka').click(function(){
+$('#dialogku').dialog('open');
+return false;
+});
+});
+</script>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark main-nav"
+style="background-color: #00CED1;" >
+<div class="container py-2">
+<a class="navbar-brand" href="#">
+
+<img src="gambar/logo.jpg" alt="" width="40" height="34" class="d-
+inline-block align-text-top">
+
+Tanah <strong>Lot</strong>
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+data-bs-target="#navbarSupportedContent" aria-
+controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+
+navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto ">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page"
+href="index.html">Home</a>
+
+</li>
+<li class="nav-item">
+<a class="nav-link" href="objekwisata.html">Objek Wisata</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="saranaakomodasi.html">Sarana Akomodasi</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="wawasan.html">Wawasan</a>
+</li>
+<form class="d-flex">
+<input class="form-control me-3" type="search"
+placeholder="Pencarian" aria-label="Search">
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Cari</button>
+ </form>
+ </ul>
+ </div>
+ </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title" id="exampleModalLabel">Website Objek Wisata </h5>
+ <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+ </div>
+ <div class="modal-body">
+ Selamat Datang Di Objek Wisata Tanah Lot, Bali
+ </div>
+ <div class="modal-footer">
+ <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">keluar</button>
+ <button type="button" class="btn btn-primary">Simpan</button>
+ </div>
+ </div>
+ </div>
+</div>
+</nav>
+</header>
+</form>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<!-- caraousel -->
+    <section class="beranda mb-5" id="beranda">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="gambar">
+            <img src="./gambar/tanahlot.jpg" class="d-block w-100" alt="...">
+        </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Tanah Lot Bali</h2>
+              <h4>Ayo Berkunjung ke Tanah Lot, Bali  </h4>
+              <h4>Nikmati berbagai macam pemandangan yang indah dan nuansa alam di Tanah Lot Bali</h4>
+              <button type="button" class="btn btn-primary">Jelajahi</button>
+              <button type="button" class="btn btn-success" style="color: black;">Video</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="gambar">
+            <img src="./gambar/sunrise.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+               <h2>Tanah Lot Bali</h2>
+              <h4>Ayo Berkunjung ke Tanah Lot, Bali  </h4>
+              <h4>Nikmati berbagai macam pemandangan yang indah dan nuansa alam di Tanah Lot Bali</h4>
+                <button type="button" class="btn btn-primary">Jelajahi</button>
+              <button type="button" class="btn btn-success" style="color: black;">Video</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="gambar">
+            <img src="./gambar/tanahlot1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+               <h2>Tanah Lot Bali</h2>
+              <h4>Ayo Berkunjung ke Tanah Lot, Bali  </h4>
+              <h4>Nikmati berbagai macam pemandangan yang indah dan nuansa alam di Tanah Lot Bali</h4>
+                <button type="button" class="btn btn-primary">Jelajahi</button>
+              <button type="button" class="btn btn-success" style="color: black;">Video</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- tutup caraousel -->
+
+<!-- Objek Wisata -->
+<div class="container" style="background-color:#f3f4f5">
+<p id="objekwisata" class="display-4" style="text-align:center;">Objek
+Wisata</p>
+
+<div class="row">
+<div class="col-md-6">
+<h4>Upacara</h4>
+<p class="lead">
+Di Tanah Lot juga terdaoat 8 Pura, yang memiliki kepercayaan Hindu biasanya akan bersembahyang ke 8 Pura tersebut, dari 8 pura tersebut memiliki fungsi dan tujuannya tersendiri. Bukan hanya Pura yang terdapat di Tanah Lot tetapi juga ada Goa yang berisi ular suci yang di percaya sebagai penjaga Tanah Lot, Bali.
+
+Upacara yang diadakan di Tanah Lot Bali biasanya diadakan oleh umat yang beragama hindu</p>
+
+
+<h4>Hubungi Kami di Sosial Media</h4>
+<a href="#" class="btn btn-primary">Facebook</a>
+<a href="#" class="btn btn-success">Twitter</a>
+<a href="#" class="btn btn-warning">Youtube</a>
+</div>
+<div class="col-md-6">
+<figure class="figure">
+<img src="gambar/upacara.jpg" class="img-thumbnail"
+
+width="100%" alt="gambar danau beratan">
+
+<figcaption style="text-align:center;">Upacara</figcaption> </figure>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-md-6">
+<figure class="figure">
+<img src="gambar/sunset.jpg" class="img-thumbnail"
+
+width="100%" alt="gambar Kebun Raya">
+
+<figcaption style="text-align:center;">Sunset Tanah Lot</figcaption>
+
+</figure>
+</div>
+<div class="col-md-6">
+<h4 >Sunset</h4>
+<p class="lead"> Objek Wisata saat sunset cukup banyak di gemari oleh wisatawan dengan pemandangan langit yang sangat indah membuat para wisatawan mengabadikan moment dengan berfoto, sunset biasanya ada disaat jam 17.00-19.00</p>
+
+
+
+<h4>Hubungi Kami di Sosial Media</h4>
+<a href="#" class="btn btn-primary">Facebook</a>
+<a href="#" class="btn btn-success">Twitter</a>
+<a href="#" class="btn btn-warning">Youtube</a>
+</div>
+</div>
+
+<hr>
+<div class="row">
+<div class="col-md-6">
+<h4>Ular Suci Tanah Lot</h4>
+
+<p class="lead">Salah satu hal yang menarik di Tanah Lot adalah ular suci yang ada didalam goa, ular suci ini biasanya sebagai simbol Tanah Lot, biasanya umat beragama Hindu bersembahyang di pura Tanah Lot dan akan melihat ular suci ini, ular ini sudah cukup jinak namun tetap harus dalam pengawasan</p>
+
+<h4>Hubungi Kami di Sosial Media</h4>
+<a href="#" class="btn btn-primary">Facebook</a>
+<a href="#" class="btn btn-success">Twitter</a>
+<a href="#" class="btn btn-warning">Youtube</a>
+</div>
+<div class="col-md-6">
+<figure class="figure">
+<img src="gambar/ular.jpeg" class="img-thumbnail"
+
+width="100%" alt="gambar danau beratan">
+
+<figcaption style="text-align:center;">Ular Suci</figcaption>
+</figure>
+</div>
+</div>
+
+
+<hr>
+<div class="row">
+<div class="col-md-6">
+<figure class="figure">
+<img src="gambar/dagang.jpg" class="img-thumbnail"
+
+width="100%" alt="gambar Kebun Raya">
+
+<figcaption style="text-align:center;">Pasar Souvenir</figcaption>
+
+</figure>
+</div>
+<div class="col-md-6">
+<h4 >Pasar Souvenir</h4>
+<p class="lead">Tempat ini adalah tempat yang pasti dicari oleh para tamu / wisatawan yang berkunjung ke Tanah Lot, Bali. Disini banyak sekali mnyajikan souvenir, oleh-oleh, makanan, minuman, dan karya-karya tangan. Untuk kualitas pastinya sangat bagus. Dari beberapa buah tangan di Tanah Lot memiliki ciri khas tersendiri.
+Tempat ini menjadi pusat perhatian Wisatawan</p>
+
+
+
+<h4>Hubungi Kami di Sosial Media</h4>
+<a href="#" class="btn btn-primary">Facebook</a>
+<a href="#" class="btn btn-success">Twitter</a>
+<a href="#" class="btn btn-warning">Youtube</a>
+</div>
+</div>
+<hr>
+<nav aria-label="Page navigation example">
+<ul class="pagination justify-content-center">
+<li class="page-item">
+<a class="page-link">Previous</a>
+</li>
+<li class="page-item"><a class="page-link" href="#">1</a></li>
+
+<li class="page-item"><a class="page-link" href="#">2</a></li>
+<li class="page-item"><a class="page-link" href="#">3</a></li>
+<li class="page-item">
+<a class="page-link" href="#">Next</a>
+</li>
+</ul>
+</nav>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#0099ff" fill-opacity="1.2" d="M0,224L80,197.3C160,171,320,117,480,128C640,139,800,213,960,229.3C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
+<footer class="text-white text-center" style="background-color:#0099ff; width: 100%;">
+<div class="container-fluid">
+<div class="row">
+<div style="margin-top: 5%;" class="col-md-4">
+<p>copyright @2021 Creative Web Design</p>
+</div><br>
+<div class="col-md-4">
+<ul style="text-align:center;" class="list-unstyled">
+<li ><a href="#"></a> Home</li>
+<li ><a href="#objekwisata"></a> Objek Wisata</li>
+<li ><a href="#sarana"></a> Sarana dan Akomodasi</li>
+
+<li ><a href="#wawasan"></a> Wawasan</li>
+</ul>
+</div>
+<div style="margin-top: 2%;" class="col-md-4">
+<h4>PT Web Desain Putri</h4>
+<p>Info Pariwisata</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- Bootstrap JS -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.mi
+n.js" integrity="sha384-
+ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+</body>
+</html>
